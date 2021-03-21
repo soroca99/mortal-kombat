@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortal Combat</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="/img/КиноПульс.svg" alt="Логотип: КиноПульс" class="logo-image">
+      </a>
+      <a href="#" class="user">
+        <span class="user-name">Comandante</span>
+        <img src="/img/user-image.jpg" alt="user-image" class="user-image">
+      </a>
+      <!-- /.logo -->
+    </header>
+    <!-- /.header -->
+    <section class="film">
+      <img src="/img/film-logo.png" alt="Mortal Kombat" class="film-logo">
+      <div class="tags">
+        <span class="date">2021</span>
+        <span class="genre">боевик, фэнтези, фантастика</span>
+        <span class="country">США</span>
+        <span class="age">18+</span>
+      </div>
+      <!-- /.tags -->
+      <p class="description">
+        Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший
+      </p>
+      <!-- /.description -->
+      <div class="button-group">
+        <a data-fancybox data-src="#order-box" href="javascript:;" class="button button-primary">
+          <span class="button-text-order">Предзаказ фильма</span>
+        </a>
+        <a data-fancybox href="https://youtu.be/8CB0zkjHIaU" class="button button-default">
+          <img src="/img/button-icon.svg" alt="button-icon" class="button-icon">
+          <span class="button-text">Смотреть трейлер</span>
+        </a>
+      </div>
+      <!-- /.button-group -->
+    </section>
+    <!-- /.film -->
+  </div>
+  <!-- /.app -->
+
+  <div class="order-box" id="order-box">
+    <h2>Заполнить данные</h2>
+    <form>
+    <div class="user-box">
+      <input type="text" name="" required="">
+      <label>Ваше имя</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="" required="">
+      <label>Ваш емейл</label>
+    </div>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Оформить заказ
+    </a>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/js/jquery.vide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
